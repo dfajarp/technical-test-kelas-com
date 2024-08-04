@@ -1,0 +1,27 @@
+.contact-section {
+    padding: 10rem 20rem
+}
+
+/* Padding untuk layar yang lebih besar */
+@media (min-width: 768px) {
+    .contact-section {
+        padding: 1rem 3rem
+
+    }
+}
+
+/* Padding untuk layar yang lebih kecil */
+@media (min-width: 576px) {
+    .contact-section {
+        padding: 5rem 1rem;
+
+    }
+}
+
+/* Padding untuk layar yang paling kecil */
+@media (max-width: 576px) {
+    .contact-section {
+        padding: 1rem 1rem;
+
+    }
+}

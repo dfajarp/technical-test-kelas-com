@@ -1,0 +1,17 @@
+.img-home {
+    background-size: cover; /* Menyesuaikan ukuran gambar agar menutupi seluruh elemen */
+    background-position: center; /* Menempatkan gambar di tengah elemen */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    width: 100%; /* Atur sesuai kebutuhan */
+    height: 300px; /* Atur sesuai kebutuhan */
+    background-color: lightgrey; /* Opsional: untuk melihat area div */
+}
+
+
+.text-overlay {
+    text-align: center; /* Agar teks berada di tengah horizontal */
+}
+
+.text-overlay h4 {
+    margin: 0; /* Menghapus margin default h4 */
+}

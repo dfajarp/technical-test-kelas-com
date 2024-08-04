@@ -1,0 +1,24 @@
+
+.btn-package {
+    background-color: #87BBD1 !important;
+    color: #000000 !important;
+    border-color: #87BBD1 !important;
+}
+
+.btn-package:hover {
+    background-color: #6e4e20 !important;
+}
+
+.card-package:hover {
+    background-color: #E0EFF5;
+    border-color: #E0EFF5;
+}
+
+.btn-contact {
+    background-color: white;
+    color: #C19D6C;
+}
+.btn-contact:hover {
+    background-color: #6e4e20;
+    color: #C19D6C;
+}

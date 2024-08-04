@@ -1,0 +1,16 @@
+.txt-btn-nowrap {
+    white-space: nowrap;
+}
+
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    background-color: #c19d6c !important;
+    color: white !important;
+    
+}
+
+.nav-link {
+    color: #c19d6c !important;
+    border: 1 !important;
+    border-color: #c19d6c !important;
+}

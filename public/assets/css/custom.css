@@ -1,0 +1,144 @@
+.position-sticky {
+    position: -webkit-sticky; /* Untuk browser berbasis Webkit */
+    position: sticky;
+    top: 0; /* Menentukan jarak dari bagian atas viewport */
+    z-index: 999; /* Memastikan elemen berada di atas konten lainnya */
+    background-color: #fff; /* Menetapkan background warna agar konten di bawahnya tidak terlihat lewat */
+}
+
+.btn-primary {
+    background-color: #c19d6c !important;
+    color: #fff !important;
+    border-color: #c19d6c !important;
+}
+
+.btn-primary:hover {
+    background-color: #6e4e20 !important;
+}
+
+.btn-secondary {
+    background-color: #fff !important;
+    color: #c19d6c !important;
+    border-color: #c19d6c !important;
+}
+
+.btn-secondary:hover {
+    /* background-color: #6e4e20 !important; */
+    border-color: #6e4e20 !important;
+    color: #6e4e20 !important;
+
+
+}
+
+.no-container-effect {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100% !important;
+    max-width: none !important;
+}
+
+.bg-gray1 {
+    background-color: #FDFDFD;
+}
+.bg-gray2 {
+    background-color: #F6F6F6;
+}
+.bg-gray3 {
+    background-color: #D9D9D9;
+}
+
+.bg-brown {
+    background-color: #C19D6C;
+}
+
+.py-14 {
+    padding-top: 3.5rem; /* 56px */
+    padding-bottom: 3.5rem; /* 56px */
+}
+
+/* Pastikan ul dapat scroll secara horizontal */
+.overflow-auto {
+    overflow-x: auto;
+}
+
+/* Agar daftar elemen tidak membungkus dan tetap dalam satu baris */
+.flex-nowrap {
+    flex-wrap: nowrap;
+}
+
+/* class punya */
+
+/* Custom navigation buttons */
+/* .custom-nav-prev,
+.custom-nav-next {
+    background-color: #000; 
+    color: #fff;  
+    border-radius: 50%; 
+    width: 40px; 
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.custom-nav-prev {
+    left: 10px; 
+    bottom: 0;
+}
+
+.custom-nav-next {
+    right: 10px; 
+    bottom: 0;
+}
+
+.custom-dots {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.custom-dots .owl-dot {
+    display: inline-block;
+    width: 100px;
+    height: 12px;
+    background: #000000; 
+   
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.custom-dots .owl-dot.active {
+    background: #6e4e20; 
+} */
+
+/* contact punya */
+.img-contact {
+    position: relative; /* Penting untuk memposisikan pseudo-element secara absolut di atas elemen ini */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 300px;
+    background-color: lightgrey; /* Opsional: untuk melihat area div */
+}
+
+/* Pseudo-element untuk overlay */
+.img-contact::before {
+    content: ""; /* Membuat pseudo-element */
+    position: absolute; /* Mengatur posisi overlay di atas gambar */
+    top: 0; /* Menutupi bagian atas */
+    left: 0; /* Menutupi bagian kiri */
+    width: 100%; /* Menutupi lebar elemen */
+    height: 100%; /* Menutupi tinggi elemen */
+    background-color: rgba(236, 208, 168, 0.932); /* Warna kuning dengan transparansi (0.5) */
+    z-index: 1; /* Menempatkan overlay di atas gambar */
+}
+
+/* Untuk memastikan konten di dalam .img-contact tetap terlihat di atas overlay */
+.img-contact > * {
+    position: relative;
+    z-index: 2; /* Konten tetap di atas overlay */
+}
+
