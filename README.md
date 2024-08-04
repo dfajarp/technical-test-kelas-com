@@ -1,12 +1,12 @@
 ## HOW TO INSTALL
 
-clone project
-composer install
-npm install
-php artisan key:generate
-php artisan migrate
-php artisan db:seed
-create .env from .env-example
+<P>clone project</p>
+<P>composer install</p>
+<P>npm install</p>
+<P>php artisan key:generate</p>
+<P>php artisan migrate</p>
+<P>php artisan db:seed</p>
+<P>create .env from .env-example</p>
 ## ====
 
 
